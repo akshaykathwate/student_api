@@ -10,7 +10,7 @@ import (
 
 // Struct for HTTP server settings
 type Httpserver struct {
-	Addr string `yaml:"addr" env:"HTTP_ADDR" env-default:":8080"`
+	Addr string `yaml:"addr" env:"" `
 }
 
 // Main Config struct embedding Httpserver
